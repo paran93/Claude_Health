@@ -327,7 +327,7 @@ Please provide:
 Keep the tone conversational, supportive, and tailored to their personality type. The message should be 150-200 words and feel like it's coming from a knowledgeable friend who cares about their health journey."""
 
             response = self.client.messages.create(
-                model="claude-3-sonnet-20240229",
+                model="claude-3-5-sonnet-20241022",
                 max_tokens=300,
                 messages=[{"role": "user", "content": prompt}]
             )
